@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proxifly 免费代理列表</title>
+  <meta name="description" content="每 5 分钟更新的免费 HTTP、HTTPS、SOCKS4、SOCKS5 代理列表，支持 JSON、TXT、CSV 下载。">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Noto Sans SC', 'sans-serif'],
+            display: ['Space Grotesk', 'Noto Sans SC', 'sans-serif']
+          },
+          colors: {
+            ink: '#18211f',
+            mist: '#f4f1e8',
+            leaf: '#6f8f65',
+            clay: '#d1845d'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-mist text-ink antialiased">
+  <div class="fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute -left-32 top-20 h-80 w-80 rounded-full bg-leaf/20 blur-3xl"></div>
+    <div class="absolute right-0 top-0 h-[34rem] w-[34rem] rounded-full bg-clay/20 blur-3xl"></div>
+    <div class="absolute inset-0 opacity-[0.06]" style="background-image: radial-gradient(#18211f 1px, transparent 1px); background-size: 22px 22px;"></div>
+  </div>
+
+  <header class="mx-auto flex max-w-7xl items-center justify-between px-5 py-6 md:px-8">
+    <a href="https://proxifly.dev" class="flex items-center gap-3 font-display text-lg font-bold tracking-tight">
+      <img src="https://cdn.itwcreativeworks.com/assets/proxifly/images/logo/proxifly-brandmark-black-x.svg" alt="Proxifly" class="h-9 w-9">
+      Proxifly
+    </a>
+    <nav class="hidden items-center gap-7 text-sm font-medium text-ink/70 md:flex">
+      <a href="#features" class="hover:text-ink">特性</a>
+      <a href="#downloads" class="hover:text-ink">下载</a>
+      <a href="#npm" class="hover:text-ink">NPM</a>
+      <a href="https://github.com/proxifly/free-proxy-list" class="rounded-full border border-ink/15 px-4 py-2 hover:bg-ink hover:text-mist">GitHub 仓库</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mx-auto grid min-h-[82dvh] max-w-7xl items-center gap-12 px-5 py-14 md:grid-cols-[1.1fr_.9fr] md:px-8">
+      <div>
+        <div class="mb-7 inline-flex items-center gap-3 rounded-full border border-ink/10 bg-white/60 px-4 py-2 text-sm font-medium shadow-sm backdrop-blur">
+          <span class="h-2 w-2 rounded-full bg-leaf"></span>
+          每 5 分钟自动验证与更新
+        </div>
+        <h1 class="font-display text-5xl font-bold leading-[0.95] tracking-tighter md:text-7xl">
+          免费代理列表，<br><span class="text-leaf">实时可用</span>，按需下载。
+        </h1>
+        <p class="mt-7 max-w-[60ch] text-lg leading-relaxed text-ink/72">
+          Proxifly 从全球抓取并验证 HTTP、HTTPS、SOCKS4 与 SOCKS5 代理，提供 JSON、TXT、CSV 多格式直链，适合测试、开发与自动化集成。
+        </p>
+        <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+          <a href="https://proxifly.dev/tools/proxy-list" class="rounded-full bg-ink px-7 py-4 text-center font-bold text-mist transition hover:-translate-y-0.5 active:scale-[0.98]">下载免费代理列表</a>
+          <a href="#downloads" class="rounded-full border border-ink/15 bg-white/55 px-7 py-4 text-center font-bold backdrop-blur transition hover:bg-white active:scale-[0.98]">查看直链</a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="absolute -left-8 -top-8 hidden rounded-3xl bg-clay px-5 py-4 font-display text-3xl font-bold text-white shadow-xl md:block">84<br><span class="text-sm font-sans font-medium">国家/地区</span></div>
+        <div class="rounded-[2rem] border border-ink/10 bg-white/75 p-5 shadow-2xl shadow-ink/10 backdrop-blur">
+          <div class="flex items-center justify-between border-b border-ink/10 pb-4">
+            <span class="font-display text-xl font-bold">最新代理池</span>
+            <span class="rounded-full bg-leaf/15 px-3 py-1 text-sm font-bold text-leaf">3165 可用</span>
+          </div>
+          <div class="grid gap-3 pt-5">
+            <div class="flex items-center justify-between rounded-2xl bg-ink p-5 text-mist"><span>全部代理</span><strong class="font-display text-3xl">3165</strong></div>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="rounded-2xl bg-mist p-5"><span class="text-sm text-ink/60">HTTP</span><p class="font-display text-3xl font-bold">1248</p></div>
+              <div class="rounded-2xl bg-mist p-5"><span class="text-sm text-ink/60">HTTPS</span><p class="font-display text-3xl font-bold">767</p></div>
+              <div class="rounded-2xl bg-mist p-5"><span class="text-sm text-ink/60">SOCKS4</span><p class="font-display text-3xl font-bold">733</p></div>
+              <div class="rounded-2xl bg-mist p-5"><span class="text-sm text-ink/60">SOCKS5</span><p class="font-display text-3xl font-bold">417</p></div>
+            </div>
+          </div>
+          <p class="mt-5 text-sm text-ink/55">最新更新：2026 年 5 月 25 日 21:44 UTC</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="mx-auto max-w-7xl px-5 py-20 md:px-8">
+      <div class="mb-10 max-w-2xl">
+        <p class="font-display text-sm font-bold uppercase tracking-[0.25em] text-clay">Features</p>
+        <h2 class="mt-3 font-display text-4xl font-bold tracking-tighter md:text-5xl">为稳定获取代理而设计</h2>
+      </div>
+      <div class="grid gap-4 md:grid-cols-4">
+        <div class="rounded-[1.75rem] bg-white/70 p-6 shadow-sm">⚡ <h3 class="mt-4 font-bold">速度极快</h3><p class="mt-2 text-sm leading-relaxed text-ink/65">直接通过 CDN 分发，获取列表无需等待。</p></div>
+        <div class="rounded-[1.75rem] bg-white/70 p-6 shadow-sm">📝 <h3 class="mt-4 font-bold">持续验证</h3><p class="mt-2 text-sm leading-relaxed text-ink/65">代理每 5 分钟重新检测一次。</p></div>
+        <div class="rounded-[1.75rem] bg-white/70 p-6 shadow-sm">📦 <h3 class="mt-4 font-bold">多种格式</h3><p class="mt-2 text-sm leading-relaxed text-ink/65">JSON、TXT、CSV 满足脚本和人工使用。</p></div>
+        <div class="rounded-[1.75rem] bg-white/70 p-6 shadow-sm">😊 <h3 class="mt-4 font-bold">无重复项</h3><p class="mt-2 text-sm leading-relaxed text-ink/65">按协议与国家/地区分类，列表更干净。</p></div>
+      </div>
+    </section>
+
+    <section id="downloads" class="mx-auto max-w-7xl px-5 py-20 md:px-8">
+      <div class="rounded-[2.5rem] bg-ink p-6 text-mist md:p-10">
+        <div class="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+          <div>
+            <p class="font-display text-sm font-bold uppercase tracking-[0.25em] text-clay">Direct Links</p>
+            <h2 class="mt-3 font-display text-4xl font-bold tracking-tighter">直接下载链接</h2>
+          </div>
+          <p class="max-w-md text-mist/65">点击偏好的格式，获取最新代理列表。请遵守 GitHub 可接受使用政策，负责任地使用代理。</p>
+        </div>
+        <div class="mt-8 overflow-x-auto">
+          <table class="w-full min-w-[820px] border-collapse text-left text-sm">
+            <thead class="text-mist/55"><tr class="border-b border-white/10"><th class="py-4">类型</th><th>数量</th><th>JSON</th><th>TXT</th><th>CSV</th></tr></thead>
+            <tbody class="divide-y divide-white/10">
+              <tr><td class="py-4 font-bold">全部代理</td><td>3165</td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json">JSON 文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt">文本文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.csv">CSV 文件</a></td></tr>
+              <tr><td class="py-4 font-bold">HTTP 代理</td><td>1248</td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.json">JSON 文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt">文本文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.csv">CSV 文件</a></td></tr>
+              <tr><td class="py-4 font-bold">HTTPS 代理</td><td>767</td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.json">JSON 文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt">文本文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.csv">CSV 文件</a></td></tr>
+              <tr><td class="py-4 font-bold">SOCKS4 代理</td><td>733</td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.json">JSON 文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.txt">文本文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.csv">CSV 文件</a></td></tr>
+              <tr><td class="py-4 font-bold">SOCKS5 代理</td><td>417</td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.json">JSON 文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt">文本文件</a></td><td><a class="text-clay" href="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.csv">CSV 文件</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="npm" class="mx-auto grid max-w-7xl gap-8 px-5 py-20 md:grid-cols-2 md:px-8">
+      <div>
+        <p class="font-display text-sm font-bold uppercase tracking-[0.25em] text-clay">Integration</p>
+        <h2 class="mt-3 font-display text-4xl font-bold tracking-tighter">用 NPM 或 cURL 接入你的流程</h2>
+        <p class="mt-5 leading-relaxed text-ink/70">官方 Proxifly NPM 模块可按协议、匿名级别、国家/地区、HTTPS 支持与数量获取代理；也可以直接使用 cURL 下载 TXT 列表。</p>
+      </div>
+      <div class="rounded-[2rem] bg-[#202925] p-5 text-sm text-mist shadow-2xl shadow-ink/15">
+        <pre class="overflow-x-auto"><code>npm install proxifly
+
+import Proxifly from 'proxifly';
+
+const proxifly = new Proxifly({
+  apiKey: 'your-api-key'
+});
+
+proxifly.getProxy({
+  protocol: 'http',
+  anonymity: 'elite',
+  country: 'US',
+  https: true,
+  format: 'json',
+  quantity: 1,
+});</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mx-auto max-w-7xl px-5 py-10 text-sm text-ink/60 md:px-8">
+    <div class="flex flex-col justify-between gap-4 border-t border-ink/10 pt-8 md:flex-row">
+      <p>© Proxifly 免费代理列表。欢迎贡献，任何一点帮助都有价值。</p>
+      <div class="flex gap-5">
+        <a href="https://proxifly.dev" class="hover:text-ink">网站</a>
+        <a href="https://www.npmjs.com/package/proxifly" class="hover:text-ink">NPM 模块</a>
+        <a href="https://github.com/proxifly/free-proxy-list" class="hover:text-ink">GitHub 仓库</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
