@@ -1,8 +1,8 @@
 [
   {
-    "proxy": "http://190.43.92.196:999",
+    "proxy": "http://38.224.231.81:999",
     "protocol": "http",
-    "ip": "190.43.92.196",
+    "ip": "38.224.231.81",
     "port": 999,
     "https": false,
     "anonymity": "transparent",
