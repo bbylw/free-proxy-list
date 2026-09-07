@@ -1,0 +1,41 @@
+[
+  {
+    "proxy": "http://102.38.30.240:8080",
+    "protocol": "http",
+    "ip": "102.38.30.240",
+    "port": 8080,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://102.68.132.5:18000",
+    "protocol": "http",
+    "ip": "102.68.132.5",
+    "port": 18000,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LY",
+      "city": "Unknown"
+    }
+  },
+  {
+    "proxy": "http://102.38.29.63:8081",
+    "protocol": "http",
+    "ip": "102.38.29.63",
+    "port": 8081,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "LY",
+      "city": "Unknown"
+    }
+  }
+]
