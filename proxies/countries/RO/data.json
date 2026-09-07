@@ -1,5 +1,18 @@
 [
   {
+    "proxy": "socks4://46.214.153.223:5678",
+    "protocol": "socks4",
+    "ip": "46.214.153.223",
+    "port": 5678,
+    "https": false,
+    "anonymity": "transparent",
+    "score": 1,
+    "geolocation": {
+      "country": "RO",
+      "city": "Unknown"
+    }
+  },
+  {
     "proxy": "http://193.176.84.34:9002",
     "protocol": "http",
     "ip": "193.176.84.34",
@@ -325,19 +338,6 @@
     }
   },
   {
-    "proxy": "http://203.25.108.77:443",
-    "protocol": "http",
-    "ip": "203.25.108.77",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RO",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://80.97.226.98:443",
     "protocol": "http",
     "ip": "80.97.226.98",
@@ -429,19 +429,6 @@
     }
   },
   {
-    "proxy": "http://66.234.147.226:443",
-    "protocol": "http",
-    "ip": "66.234.147.226",
-    "port": 443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RO",
-      "city": "Unknown"
-    }
-  },
-  {
     "proxy": "http://172.64.68.89:443",
     "protocol": "http",
     "ip": "172.64.68.89",
@@ -481,9 +468,9 @@
     }
   },
   {
-    "proxy": "http://66.234.147.226:9443",
+    "proxy": "http://185.163.110.194:9443",
     "protocol": "http",
-    "ip": "66.234.147.226",
+    "ip": "185.163.110.194",
     "port": 9443,
     "https": true,
     "anonymity": "transparent",
@@ -494,23 +481,10 @@
     }
   },
   {
-    "proxy": "http://135.136.1.2:9443",
+    "proxy": "http://169.150.199.1:443",
     "protocol": "http",
-    "ip": "135.136.1.2",
-    "port": 9443,
-    "https": true,
-    "anonymity": "transparent",
-    "score": 1,
-    "geolocation": {
-      "country": "RO",
-      "city": "Unknown"
-    }
-  },
-  {
-    "proxy": "http://135.136.1.34:9443",
-    "protocol": "http",
-    "ip": "135.136.1.34",
-    "port": 9443,
+    "ip": "169.150.199.1",
+    "port": 443,
     "https": true,
     "anonymity": "transparent",
     "score": 1,
